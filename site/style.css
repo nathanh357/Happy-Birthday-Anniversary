@@ -1,16 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
 h1 {
 	text-align: center;
 	font-size: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
-	height: 30%;
-	margin-top: 40%;
 }
 
+.row {
+	text-align: center;
+}
 
+.column {
+	float: left;
+	width: 49%;
+	padding: 0px;
+	margin-left: 5px;
+	border: 2px solid black;
+	padding: 0px;
+}
 
-
+.center {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px; 
+}
 
 body    {
     background-color : #ffceed;
